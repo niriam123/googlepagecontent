@@ -1,0 +1,387 @@
+*{
+    margin:0;
+    padding:0;
+  
+}
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+    width:100%;
+    margin:0 auto;
+    font-weight: 300;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+header{
+    height:140px;
+    border-bottom: 1px solid #ebebeb;
+}
+.headertop{
+    height: 100px;
+    padding: 30px 30px;
+}
+.headertop .googlelogo{
+    width:140px;
+    float: left;
+    margin:10px 0;
+}
+.headertop .googlelogo img{
+    width:92px;
+    height: 30px;
+}
+.headertop .googleinput{
+    display: inline;
+    color: #202124;
+}
+.headertop .googleinput input{
+    width:690px;
+    border:1px solid transparent;
+    background:transparent;
+    height:39px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-indent: 40px;
+    color: #202124;
+}
+input::placeholder{
+    color: #202124;
+}
+.headertop  i.search-icon{
+    position: absolute;
+    z-index: 100;
+    padding-top: 17px;
+    padding-left: 15px;
+    color: #9aa0a6;
+}
+.headertop img.micro-icon{
+    position: absolute;
+    z-index: 100;
+    margin-left: -28px;
+    margin-top: 13px;
+    width: 12px;
+}
+.headertop .googleinput input:focus, .headertop .googleinput input:hover{
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
+    border-color: rgba(223,225,229,0);
+}
+.headertop .googlelink{
+    display: inline;
+    margin:10px 0;
+    float: right;
+}
+.headertop .googlelink ul{
+    margin:0;
+    padding:0;
+    text-align: end;
+}
+.headertop .googlelink ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.headertop .googlelink ul li:last-child{
+    margin-right:0;
+}
+.headertop .googlelink ul li a{
+    text-decoration: none;
+}
+.headertop .googlelink ul li a img{
+    width:25px;
+    height:25px;
+}
+.headertop .googlelink ul li a img.profilepic{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.headerbottom{
+    height:40px;
+    width: 650px;
+    margin: 0 0 0 200px;
+}
+.headerbottom ul{
+    margin:0;
+    padding:0;
+}
+.headerbottom ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.headerbottom ul li.right{
+    float: right;
+}
+.headerbottom ul li a{
+    text-decoration: none;
+    color:#5f6368;
+    font-size: 14px;
+}
+
+/* *********** Main **************** */
+main{
+    width: 652px;
+    margin: 0 0 0 200px;
+}
+.google-content-top h6{
+    color:#70757a;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.google-content-top h5{
+    font-size: 16px;
+    line-height:24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #202124;
+}
+.google-content-top a{
+    -webkit-tap-highlight-color: rgba(0,0,0,.10);
+    color: #5f6368;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+}
+.google-content-top h3{
+    font-size: 20px;
+    color: #1a0dab;
+    padding-top: 5px;
+}
+.google-content-top h3:hover{
+    text-decoration: underline;
+}
+.googlefeedback .google-border{
+    background: #dadce0;
+    height: 1px;
+    width:60%;
+    display: inline-block;
+    vertical-align: super;
+}
+.googlefeedback ul{
+    margin:0;
+    padding:0;
+    display: inline;
+}
+.googlefeedback ul li{
+    display: inline;
+    margin:0 10px;
+}
+.googlefeedback ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #70757a;
+}
+.googlefeedback ul li a:active {
+    color: #1a0dab;
+}
+.googlefeedback ul li a:hover {
+    text-decoration: underline;
+}
+#google-accordion-content{
+    margin-top: 30px;
+}
+#google-accordion-content h2{
+    font-size: 20px;
+    color: #202124;
+    font-weight: normal;
+   
+}
+#google-accordion-content hr{
+    background: #dadce0;
+    height: 1px;
+}
+#google-accordion-content .accordion-body h4{
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+#google-accordion-content .accordion-button{
+    padding:.8rem 0;
+}
+#google-accordion-content .accordion-button::after{
+    background-size: 16px;
+}
+#google-accordion-content .accordion-flush .accordion-item:first-child{
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+/* #google-accordion-content .accordion-flush .accordion-item:last-child{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+} */
+#google-accordion-content .accordion-body{
+    padding: 1rem 0;
+}
+#google-accordion-content .accordion-body ul{
+    margin: 0px 20px 10px;
+    padding:0;
+    list-style-type:decimal;
+}
+#google-accordion-content .accordion-body ul li{
+    font-size: 16px;
+   
+}
+#google-accordion-content .accordion-button:not(.collapsed){
+    color: #202124;
+    background-color: white;
+    box-shadow: none;
+}
+.accordion-button:focus{
+    box-shadow: none;
+    border: 0;
+}
+#google-accordion-content .date span{
+    color: #70757a;
+    font-size: 12px;
+}
+#google-accordion-content .date{
+    margin-bottom: 20px;
+}
+#google-accordion-content cite{
+    font-style:normal;
+    font-size: 14px;
+}
+#google-accordion-content cite span{
+    color: #5f6368;
+}
+#google-accordion-content h3{
+    font-size:20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+#google-accordion-content h3:hover{
+    text-decoration: underline;
+}
+#google-accordion-content h3 a{
+    color: #1a0dab;
+    text-decoration: none;
+}
+#google-accordion-content .searchfor{
+    font-size: 16px;
+    margin-bottom: -3px;
+}
+#google-accordion-content .searchfor a{
+    color: #1a0dab;
+    text-decoration: none;
+}
+/* #google-accordion-content .feedbackline{
+    margin-top:20px;
+} */
+#google-accordion-content .feedbackline .line{
+    width: 89%;
+    height: 0.7px;
+    background: rgba(0,0,0,.125);
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+#google-accordion-content .feedbackline ul{
+    margin:0;
+    padding:0;
+    display: inline;
+}
+#google-accordion-content .feedbackline{
+    margin-top:-7px;
+}
+#google-accordion-content .feedbackline ul li{
+    display: inline;
+}
+#google-accordion-content .feedbackline ul li a{
+    color: #70757a;
+    font-size: 12px;
+    text-decoration: none;
+}
+.google-heading-info{
+    margin-top:40px !important;
+}
+.google-heading-info h5{
+    font-size:14px;
+    color: #4d5156;
+    margin-top: -18px;
+}
+.google-heading-info .google-heading-info-details .link-list{
+    margin-top:-6px;
+}
+.google-heading-info .google-heading-info-details .link-list ul{
+    margin: 0;
+    padding:0;
+}
+.google-heading-info .google-heading-info-details .link-list  ul li{
+    display: inline;
+    margin-right:10px;
+}
+.google-heading-info .google-heading-info-details .link-list ul li a{
+    text-decoration: none;
+    color: #1a0dab;
+    -webkit-tap-highlight-color: rgba(0,0,0,.10);
+    font-size: 14px;
+}
+
+@media only screen and (max-width:992px){
+    .headertop .googleinput input{
+        width: calc(100% - 240px);
+    }
+    .headerbottom{
+        width:100%;
+        margin:0;
+        padding:0 30px;
+    }
+    .headertop .googlelink{
+        width:100px;
+    }
+    main{
+        width:100%;
+        margin:0;
+        padding:0 30px;
+    }
+}
+
+@media only screen and (max-width:560px){
+    header{
+        height:auto;
+    }
+    .headertop{
+        height:auto;
+        padding: 30px 15px 0px 15px;
+    }
+    .headertop .googlelogo{
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .headertop .googleinput{
+        display: block;
+        margin: 20px 0 0 0;
+    }
+    .headerbottom ul li.right, .headerbottom ul li.more{
+        display: none;
+    }
+    .headertop .googleinput input{
+        width:100%;
+    }
+    .headertop .googlelink ul li.googleappicon{
+        display: none;
+    }
+    .headertop .googlelink{
+        margin: -32px 0;
+    }
+    .headerbottom{
+        padding:0 15px;
+    }
+    .headerbottom ul{    
+        padding: 13px 0;
+    }
+    .headerbottom ul li{
+        margin-right:20px;
+    }
+    .headerbottom ul li.video{
+        margin-right:0;
+    }
+    /* ********Main ***************** */
+    main{
+        padding:0 15px;
+    }
+}
